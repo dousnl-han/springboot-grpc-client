@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot-grpc-client
+
+grpc:
+  client:
+    dousnl-grpc-server:
+      address: 'static://127.0.0.1:9898'
+      enableKeepAlive: true
+      keepAliveTime: 10s
+      keepAliveTimeout: 3s
+      negotiationType: plaintext
