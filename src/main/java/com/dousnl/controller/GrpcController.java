@@ -25,4 +25,10 @@ public class GrpcController {
         return HelloResp.builder().code(response.getCode1()).message(response.getResponse()).build();
     }
 
+    public static void main(String[] args) {
+        System.out.println(120*60);
+        System.out.println((System.currentTimeMillis() - 1761876241000L));
+        System.out.println((System.currentTimeMillis() - 1761876241000L) / 1000);
+    }
+
 }
